@@ -19,7 +19,7 @@ body{
 
 /* header 시작 */
 #header{
-    margin: 5px auto;
+    margin: 15px auto;
     width: 80%;
     font-size: 20px;
     font-weight: 500;
@@ -42,7 +42,7 @@ body{
     display: block;
 }
 #header>p>a{
-    padding: 5px 15px;
+    padding: 10px 18px;
     border-radius: 15px;
     display: block;
     background-color: #fff;
@@ -55,7 +55,7 @@ body{
 .hamburger_button{
     position: absolute;
     transition: .3s ease-in-out;
-    top: 1rem;
+    top: 1.5rem;
     right: 2rem;
     z-index: 100;
     display: block;
@@ -188,7 +188,7 @@ body{
         display: none;
     }
     #header>h1{
-        width: 50%;
+        width: 55%;
     }
     #header>p>a>img{
         width: 100%;
@@ -362,6 +362,7 @@ position: relative;
         max-width: 750px;
         height: 300px;
         line-height: 20px;
+        margin: 20px 0;
     }
     .left_wrap h2{
         font-size: 1.2em;
@@ -533,7 +534,7 @@ position: relative;
         margin: 30px auto;
     }
     .right_wrap2{
-        width: 100%;
+        width: 98%;
         margin: 60px 0 30px 0;
         display: flex;
         justify-content: center;
@@ -543,6 +544,7 @@ position: relative;
         width: 100%;
         max-width: 750px;
         height: 100%;
+        margin: 15px 0;
     }
     .box3>ul>li{
         width: 16%;
@@ -560,6 +562,9 @@ position: relative;
     }
     .organ_alink{
         display: none;
+    }
+    .icon_text{
+        font-size: 1em;
     }
 }
 
@@ -834,6 +839,7 @@ label input:checked + .checkbox_icon::before{
     width: 80%;
     margin: 0 auto;
     padding: 40px;
+    box-sizing: border-box;
 }
 .footer>ul{
     display: flex;
@@ -847,7 +853,10 @@ label input:checked + .checkbox_icon::before{
 .footer>p{
     padding: 2px 10px;
 }
-@media(max-width:410px){
+.footer>a>img{
+    margin-top: 10px;
+}
+@media(max-width:510px){
     #footer_wrap{
         width: 100%;
         border-radius: 50px 50px 0 0;
@@ -858,5 +867,6 @@ label input:checked + .checkbox_icon::before{
     }
     .footer>a>img{
         width: 80%;
+
     }
 }
