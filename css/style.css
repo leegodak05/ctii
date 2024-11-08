@@ -409,12 +409,13 @@ position: relative;
     height: 300px;
     background-color: #fff;
     border-radius: 70px;
-    padding: 50px;
+    padding: 45px;
     box-sizing: border-box;
     margin: 15px;
     display: block;
     box-shadow: -8px -8px 16px #c0dcff,
     8px 8px 16px #c0dcff;
+
 }
 .box1>ul{
     display: flex;
@@ -430,7 +431,7 @@ position: relative;
     height: 300px;
     background-color: #fff;
     border-radius: 70px;
-    padding: 50px;
+    padding: 45px;
     box-sizing: border-box;
     margin: 15px;
     display: block;
@@ -452,7 +453,8 @@ position: relative;
     height: 630px;
     background-color: #fff;
     border-radius: 70px;
-    padding: 50px;
+    padding: 45px;
+    padding-top: 50px;
     box-sizing: border-box;
     margin: 15px;
     box-shadow: -8px -8px 16px #c0dcff,
@@ -466,6 +468,7 @@ position: relative;
 }
 .box3>ul>li{
     width: 40%;
+    height: 100%;
     margin: 10px 0;
 }
 .box3>h2{
@@ -478,6 +481,11 @@ position: relative;
 }
 .icon_img{
     text-align: center;
+    display: block;
+}
+#section2 a:hover{
+    color: #2d87c1;
+    font-weight: 900;
 }
 @media(max-width:1410px){
     #section2{
@@ -493,25 +501,29 @@ position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 60px 0 30px 0;
+        margin-bottom: 30px;
     }
     .box1{
         width: 98%;
         max-width: 750px;
-        height: 50%;
+        height: 45%;
     }
     .box2{
         width: 98%;
         max-width: 750px;
-        height: 50%;
+        height: 45%;
     }
     .box3{
         width: 98%;
-        max-width: 750px;
-        height: 100%;
+        max-width: 735px;
+        height: 90%;
+        padding: 45px;
+    }
+    .box3>ul{
     }
     .box3>ul>li{
-        width: 15%;
+        width: 14%;
+        margin: 0;
     }
 }
 @media(max-width:780px){
@@ -522,29 +534,32 @@ position: relative;
         width: 100%;
     }
     .box1{
-        width: 98%;
+        width: 95%;
         max-width: 750px;
-        height: 50%;
+        height: 46%;
         margin: 15px auto;
+        padding: 45px 25px 30px;
     }
     .box2{
-        width: 98%;
+        width: 95%;
         max-width: 750px;
-        height: 50%;
+        height: 46%;
         margin: 30px auto;
+        padding: 45px 25px 30px;
     }
     .right_wrap2{
-        width: 98%;
-        margin: 60px 0 30px 0;
+        width: 100%;
+        height: 100%;
+        margin: 15px 0 30px 0;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .box3{
-        width: 100%;
+        width: 95%;
         max-width: 750px;
         height: 100%;
-        margin: 15px 0;
+        padding: 45px 25px 43px;
     }
     .box3>ul>li{
         width: 16%;
@@ -557,8 +572,15 @@ position: relative;
     .box2>ul>li{
         width: 30%;
     }  
+    .right_wrap2{
+        margin-top: 0;
+    }
+    .box3{
+        padding-bottom: 30px;
+        margin: 15px 0;
+    }
     .box3>ul>li{
-        width: 30%;
+        width: 31%;
     }
     .organ_alink{
         display: none;
