@@ -14,6 +14,10 @@ var swiper = new Swiper(".correspondent", {
       el: ".swiper-pagination",
       clickable: true,
     },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
     breakpoints: {
       640: {
         slidesPerView: 2,
